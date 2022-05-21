@@ -12,7 +12,7 @@ module "scraping_gf_blog_lambda" {
   architectures = ["arm64"]
 
   environment_variables = {
-    WEBHOOK_URL = "SlackのWebHool URLを指定してください"
+    WEBHOOK_URL = "SlackのWebHook URLを指定してください"
   }
 
   source_path = "./src/scraping_gf_blog"
